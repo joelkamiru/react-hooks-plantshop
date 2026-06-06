@@ -11,7 +11,7 @@ function NewPlantForm({ onAddPlant }) {
     const newPlantData = {
       name: name,
       image: image,
-      price: parseFloat(price), 
+      price: price, 
     };
 
     fetch("http://localhost:6001/plants", {
